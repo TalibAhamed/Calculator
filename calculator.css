@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+#calculator {
+    border: 1px solid rgb(185, 183, 183);
+    border-radius: 5px;
+    width: 200px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: aqua;
+}
+
+#display {
+    margin: 10px;
+    width: 85%;
+    font-size: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    font-weight: 100px;
+}
